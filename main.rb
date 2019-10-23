@@ -1,9 +1,10 @@
-#frozen_string_literal: true
+# frozen_string_literal: true
+
 require 'rest-client'
 
-p "What do you want to search?"
+p 'What do you want to search?'
 query = gets.chomp
-response = RestClient.get "https://www.bing.com/search", params: { q: query}
+response = RestClient.get 'https://www.bing.com/search', params: { q: query }
 
 puts "This is the status of the request: #{response.code}"
 puts "This is the cookies of our application: #{response.cookies}"
