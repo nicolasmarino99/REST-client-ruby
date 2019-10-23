@@ -1,18 +1,18 @@
-#testing rest-client gem 
+# testing rest-client gem 
 
-#Description
+# Description
 In this project we test the [rest-client]("https://github.com/rest-client/rest-client") gem. We use the GET method to search a query in a browser.
 
-#How to run
+# How to run
 Type this in your command line:
 
 ```
 ruby main.rb
 ```
 
-##Used
+## Used
 * Ruby 2.6.3p62
 
-#Authors
+# Authors
 [Bruna Genz]("https://github.com/bruna-genz")
 [Nicolás Mariño]("https://github.com/nicolasmarino99")
